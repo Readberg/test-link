@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ozon Bank — перевод за рубеж по номеру</title>
+<style>
+  body{font-family:-apple-system,Roboto,Arial,sans-serif;margin:0;padding:24px;background:#f4f6fa;display:flex;flex-direction:column;gap:16px;align-items:center;justify-content:center;min-height:100vh;box-sizing:border-box}
+  h1{font-size:18px;margin:0 0 8px;text-align:center}
+  a.btn{display:block;width:100%;max-width:360px;box-sizing:border-box;padding:18px;border-radius:14px;text-align:center;text-decoration:none;font-size:17px;font-weight:600;color:#fff}
+  .app{background:#005bff}
+  .web{background:#1c1c1e}
+  small{color:#666;text-align:center;max-width:360px}
+</style>
+</head>
+<body>
+  <h1>Ozon Bank: перевод за рубеж по номеру</h1>
+  <a class="btn app" href="ozonbank://web?isBackStackEnabled=true&url=https://finance.ozon.ru/lk/lk-pay/foreign-by-phone?countryId=019c6fc7-e0a6-7aa7-a594-23914b807607">Кнопка 1: deeplink (ozonbank://)</a>
+  <a class="btn web" href="https://finance.ozon.ru/m/lk/lk-pay/foreign-by-phone?countryId=019c6fc7-e0a6-7aa7-a594-23914b807607&deeplink=true&attempt=1">Кнопка 2: https-ссылка</a>
+  <small>Кнопка 1 открывает приложение Ozon Банк (если установлено). Кнопка 2 — обычная ссылка: откроется в браузере или в приложении через App/Universal Link.</small>
+</body>
+</html>
